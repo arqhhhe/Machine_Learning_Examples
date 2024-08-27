@@ -1,0 +1,47 @@
+# Line properties
+lines.linewidth: 2
+lines.markersize: 6
+
+# Font properties
+font.size: 12
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Helvetica, Verdana
+
+# Axes properties
+axes.titlesize: 14
+axes.labelsize: 12
+axes.linewidth: 1
+axes.grid: True
+
+# Grid properties
+grid.linestyle: --
+grid.color: lightgray
+grid.linewidth: 0.5
+
+# Legend properties
+legend.fontsize: 12
+legend.frameon: True
+legend.loc: best
+
+# Figure properties
+figure.figsize: 8, 6
+figure.dpi: 100
+figure.facecolor: white
+
+# Savefig properties
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.transparent: False
+
+# Color cycle
+axes.prop_cycle: cycler('color', ['blue', 'orange', 'green', 'red', 'purple', 'brown', 'pink', 'gray', 'olive', 'cyan'])
+
+
+# Tick properties
+xtick.labelsize: 10
+ytick.labelsize: 10
+xtick.major.size: 5
+ytick.major.size: 5
+
+# Image properties
+image.cmap: viridis
